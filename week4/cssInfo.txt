@@ -1,0 +1,24 @@
+기존의 container는 위에서 아래로.
+flex : 컨테이너의 아이템들을 수평으로 구성할 수 있는 것.
+
+
+컨테이너 스타일
+display: flex; -> 내부 요소 가로 정렬
+flex-direction : column -> 새로, row -> 가로
+flex-wrap: no-wrap(한 줄에 모두 넣음), wrap(줄 바꿈)
+justify-content: space-between, space-around
+align-content: center(세로축 가운데), 
+align-content와 item 차이 : content는 하나의 컨테이너 전체 세로 길이를 기준으로 정렬하지만 items는 하나의 컨테이너 내에서 줄이 여러 줄일 경우 하나의 줄에 대한 세로 길이를 기준으로 함(줄 개수로 컨테이너의 세로 길이를 나눔)
+item-order : 각각의 아이템에 대한 값을 부여해서 오름차순으로 정렬함
+
+아이템 스타일
+align-self : -> align의 속성을 각각의 아이템에 지정
+
+
+
+
+Grid : 행과 열로 레이아웃 구성하는 것
+grid-template-rows: repeat(3, 1fr); -> 가로로 3등분
+grid-template-columns: repeat(3, 100px); -> 세로로 100px씩 3등분
+fr(frame)은 같은 크기로 나눔, px도 가능
+gap: 20px 10px; -> 아이템 사이의 가로 세로 간격 조절

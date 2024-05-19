@@ -1,0 +1,27 @@
+3주차 css 이론 수업
+
+
+css는 데이터를 다루기 위한 논리적인 로직을 짤 수 없기 때문에 프로그래밍 언어가 아니다.
+
+css파일 연결 코드
+-> <link rel="stylesheet" href="style.css">
+
+class는 .으로 스타일(중복사용 가능)
+id는 #으로 스타일(중복사용 불가능)
+input[placeholder] => placeholder를 사용하는 input에만 적용함
+
+Text 관련 주요 속성
+- font-style 글자 모양
+- font-weight 글자 굵기
+- font-family 글자체
+- text-decoration
+
+Block(Box) 관련 주요 속성
+- border 테두리
+- border-radius 테두리 둥글게
+- outline
+- box-sizing: border-box 블럭의 최대 크기를 제한함(div에서 자주 사용)(border를 내가 지정한 크기를 벗어나지 못 함)
+- width 가로
+- height 세로
+
+폰트 적용 시 구글폰트 사용하여 헤더에 링크 넣고 font-family 사용
