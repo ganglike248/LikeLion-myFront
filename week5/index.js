@@ -109,23 +109,29 @@
 // console.log("전역변수 확인: " + a);
 
 
-var num = prompt("값 입력");
+// var num = prompt("값 입력");
 
-function A(n){
-    console.log("function + for");
-    for(var i = 1; i < 10; i++){
-        console.log(n + " * " + i + " = " + n * i);
-    }
-}
+// function A(n){
+//     console.log("function + for");
+//     for(var i = 1; i < 10; i++){
+//         console.log(n + " * " + i + " = " + n * i);
+//     }
+// }
 
-const B = (n) => {
-    console.log("const + switch");
-    var i = 1;
-    while(i < 10){
-        console.log(n + " * " + i + " = " + n * i)
-        i++;
-    }
-}
+// const B = (n) => {
+//     console.log("const + switch");
+//     var i = 1;
+//     while(i < 10){
+//         console.log(n + " * " + i + " = " + n * i)
+//         i++;
+//     }
+// }
 
-A(num);
-B(num);
+// A(num);
+// B(num);
+
+// let name = 'java';
+// console.log(name);
+// name = 'script';
+// console.log(name);
+
