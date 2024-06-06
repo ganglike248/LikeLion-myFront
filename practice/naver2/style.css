@@ -1,0 +1,40 @@
+.menu_area {
+    display: flex;
+    background-image: url(images/icons.png);
+    background-size: 451px 441px;
+    background-position: -326px -161px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    padding: 5px;
+}
+
+.pay_area {
+    display: flex;
+    background-image: url(images/icons.png);
+    background-size: 451px 441px;
+    background-position: -285px -41px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    padding: 5px;
+}
+
+#headerLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#first_header {
+    display: flex;
+    flex-direction: row;
+}
+
+#second_header {
+    display: flex;
+    flex-direction: row;
+}
